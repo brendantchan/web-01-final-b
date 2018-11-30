@@ -59,8 +59,8 @@ nav {
 
 header {
     background-image: url("assets/faculty.jpeg");
-    width: 100%;
-    height: 500px;
+    background-size: cover;
+    height: 40vh;
     background-repeat: no-repeat;
 }
 
@@ -78,15 +78,178 @@ header {
     color: white;
     font-family: 'Gotham-Medium';
     font-size: 300%;
-    border: solid red 1px;
 }
 
 .facultytext {
     color: white;
-    border: solid red 1px;
     margin-left: 20%;
     margin-right: 20%;
     font-family: 'avenir-next-regular';
     font-size: 20px;
     text-align: center;
+}
+
+.lefttext {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+.leftblock {
+    background-color: darkslategrey;
+    height: 81vh;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#p1 {
+    background: url('assets/person1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.leftp {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    font-size: 120px;
+    color: white;
+    font-family: 'avenir-next-regular';
+    padding-left: 30px;
+}
+
+#p2 {
+    background: url('assets/person2.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#p3 {
+    background: url('assets/person3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#p4 {
+    background: url('assets/person4.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.righttext {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+#p5 {
+    background: url('assets/person5.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#p6 {
+    background: url('assets/person6.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#p7 {
+    background: url('assets/person7.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#p8 {
+    background: url('assets/person8.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.rightblock {
+    background-color: darkslategrey;
+    height: 81vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.rightp {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    font-size: 120px;
+    color: white;
+    font-family: 'avenir-next-regular';
+    padding-left: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: darkslategrey;
+    margin-top: 20px;
+    height: 20vh;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color: white;
+    font-family: 'avenir-next-regular';
+}
+
+.links1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: solid red 1px;
 }
