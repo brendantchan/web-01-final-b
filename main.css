@@ -29,13 +29,13 @@ nav {
     background-color: gold;
     padding-left: 10px;
     margin-top:-2%;
+    font-family: 'Gotham-Medium';
 }
 
 .topbars {
     display: flex;
     margin-left: 40%;
     justify-content: space-between;
-    
     width: 100%;
     height: 20%;
 }
@@ -45,13 +45,18 @@ nav {
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: black;
+    background-color: #0d1a26;
     text-decoration: none;
     color: white;
+    font-family: 'avenir-next-regular';
+}
+
+#F {
+    background-color: gold;
 }
 
 .search {
-    background-color: black;
+    background-color: #0d1a26;
     height: 20px;
     width: 20px;
     padding: 5px;
@@ -78,6 +83,7 @@ header {
     color: white;
     font-family: 'Gotham-Medium';
     font-size: 300%;
+    margin-bottom: 5%;
 }
 
 .facultytext {
@@ -87,6 +93,7 @@ header {
     font-family: 'avenir-next-regular';
     font-size: 20px;
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .lefttext {
@@ -98,7 +105,7 @@ header {
 }
 
 .leftblock {
-    background-color: darkslategrey;
+    background-color: #0d1a26;
     height: 81vh;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -121,7 +128,7 @@ header {
     display: flex;
     height: 60vh;
     align-items: center;
-    font-size: 120px;
+    font-size: 100px;
     color: white;
     font-family: 'avenir-next-regular';
     padding-left: 30px;
@@ -213,7 +220,7 @@ header {
 }
 
 .rightblock {
-    background-color: darkslategrey;
+    background-color: gold;
     height: 81vh;
     grid-column-start: 3;
     grid-column-end: 4;
@@ -225,8 +232,7 @@ header {
     display: flex;
     height: 60vh;
     align-items: center;
-    font-size: 120px;
-    color: white;
+    font-size: 100px;
     font-family: 'avenir-next-regular';
     padding-left: 30px;
 }
@@ -235,7 +241,7 @@ footer {
     display: flex;
     justify-content: space-around;
 
-    background-color: darkslategrey;
+    background-color: #0d1a26;
     margin-top: 20px;
     height: 20vh;
 }
@@ -251,5 +257,124 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    border: solid red 1px;
 }
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.links3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#p1 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: lightgrey;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#p2 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: #0d1a26;
+    color: white;
+    margin-top: 0%;
+    margin-left: 64%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#p3 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: gold;
+    margin-top: 0%;
+    margin-left: 64%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#p4 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: #0d1a26;
+    color: gold;
+    margin-top: 0%;
+    margin-left: 64%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#p5 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: #0d1a26;
+    color: white;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#p6 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: #0d1a26;
+    color: gold;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#p7 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: gold;
+    margin-top: 0%;
+    margin-left: 64%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#p8 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: lightgrey;
+    margin-top: 0%;
+    margin-left: 64%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
