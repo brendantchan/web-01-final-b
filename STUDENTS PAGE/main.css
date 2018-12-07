@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('fonts/Gotham-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('fonts/Gotham-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'avenir-next-regular';
+    src: url('fonts/avenir-next-regular.woff') format('woff');
+}
+
+nav {
+    display: flex;
+    padding-top: .5%;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+.logotext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    height: 110%;
+    background-color: gold;
+    padding-left: 10px;
+    margin-top:-2%;
+    font-family: 'Gotham-Medium';
+}
+
+.topbars {
+    display: flex;
+    margin-left: 40%;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+}
+
+.bars {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #0d1a26;
+    text-decoration: none;
+    color: white;
+    font-family: 'avenir-next-regular';
+}
+
+#S {
+    background-color: gold;
+}
+
+.search {
+    background-color: #0d1a26;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+header {
+    background-image: url("assets/students.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+}
+
+.students {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 422px;
+}
+
+.studentstitle {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    font-family: 'Gotham-Medium';
+    font-size: 300%;
+    margin-bottom: 5%;
+}
+
+.studentstext {
+    color: gold;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'avenir-next-regular';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.lefttext {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+#p1 {
+    background: url('assets/person1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.leftp {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    font-family: 'avenir-next-regular';
+    padding-left: 30px;
+}
+
+#p2 {
+    background: url('assets/person2.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#p3 {
+    background: url('assets/person3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#p4 {
+    background: url('assets/person4.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+h2 {
+    font-family: 'Gotham-Medium';
+}
+
+h3 {
+    font-family: 'avenir-next-regular';
+}
+
+.p1block {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.p1text {
+    font-family: 'avenir-next-regular';
+    font-size: 17px;
+}
+
+.righttext {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+#p5 {
+    background: url('assets/person5.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#p6 {
+    background: url('assets/person6.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#p7 {
+    background: url('assets/person7.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#p8 {
+    background: url('assets/person8.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.rightblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0d1a26;
+    height: 81vh;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: solid red 1px;
+}
+
+.rightp {
+    display: flex;
+    font-size: 100px;
+    font-family: 'avenir-next-regular';
+    border-bottom: gold solid 10px;
+    margin-bottom: 0%;
+    width: 80%;
+    color: white;
+}
+
+.rightp2 {
+    font-family: 'avenir-next-regular';
+    font-size: 80px;
+    margin-top: 0%;
+    width: 80%;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #0d1a26;
+    margin-top: 20px;
+    height: 20vh;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color: white;
+    font-family: 'avenir-next-regular';
+}
+
+.links1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.links3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#p5 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: lightgrey;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 64%;
+}
+
+#p6 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: gold;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 64%;
+}
+
+#p7 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: gold;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 64%;
+}
+
+#p8 p {
+    font-family: 'Gotham-Medium';
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 36%;
+    background-color: lightgrey;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 64%;
+}
+
